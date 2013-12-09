@@ -1,0 +1,18 @@
+{
+  "name": "Chrome Presents",
+  "manifest_version": 2,
+  "description": "R&D Metrics and Quality Presentation",
+  "version": "0.1",
+  "permissions": [],
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "icons": { 
+    "16": "assets/pix/QM16.png",
+    "128": "assets/pix/QM128.png"
+  },
+  "offline_enabled": true,
+  "minimum_chrome_version": "23"
+}
